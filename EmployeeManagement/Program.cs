@@ -1,6 +1,6 @@
 ﻿const int IS_PART_TIME = 1;
 const int IS_FULL_TIME = 2;
-int computeEmpWage(string company, int empRatePerHour, int numOfWorkingDays, int maxHoursPerMonth)
+static int computeEmpWage(string company, int empRatePerHour, int numOfWorkingDays, int maxHoursPerMonth)
 {
     int empHrs = 0;
     int totalEmpHrs = 0;
