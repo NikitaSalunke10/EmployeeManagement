@@ -6,7 +6,7 @@ const int EMP_RATE_PER_HOUR = 20;
 int empHrs = 0;
 int empWage = 0;
 Random random = new Random();
-int empCheck = random.Next(0, 2);
+int empCheck = random.Next(0, 3);
 switch(empCheck)
 {
     case IS_PART_TIME:
